@@ -10,7 +10,7 @@ package Solucion2;
  */
 public class Solucion2 {
 // Envoltorio sobre la clase `Node`
-    static class NodeWrapper    {
+        static class NodeWrapper    {
         public Node node;
         NodeWrapper(Node node){
         this.node = node;

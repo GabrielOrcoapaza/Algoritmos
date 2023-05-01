@@ -31,10 +31,18 @@ public class Solucion1{
     }
     public static void main(String[] args)    {
         Node head = new Node('A');
-        head.next = new Node('B');
-        head.next.next = new Node('C');
-        head.next.next.next = new Node('B');
-        head.next.next.next.next = new Node('A');
+        head.next = new Node('A');
+        head.next.next = new Node('N');
+        head.next.next.next  = new Node('A');
+        head.next.next.next.next  = new Node('L');
+        head.next.next.next.next.next  = new Node('A'); 
+        head.next.next.next.next.next.next  = new Node('V');
+        head.next.next.next.next.next.next.next  = new Node('L');
+        head.next.next.next.next.next.next.next.next  = new Node('A');
+        head.next.next.next.next.next.next.next.next.next  = new Node('T');
+        head.next.next.next.next.next.next.next.next.next.next  = new Node('I');
+        head.next.next.next.next.next.next.next.next.next.next.next  = new Node('N');
+        head.next.next.next.next.next.next.next.next.next.next.next.next  = new Node('A');
         if (isPalindrome(head)){
         System.out.println("Linked List Es palindrome.");
         }
